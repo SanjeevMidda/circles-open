@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.one {
+  grid-area: a;
+}
+
+.two {
+  grid-area: b;
+}
+
+.three {
+  grid-area: d;
+}
+
+.four {
+  grid-area: c;
+}
